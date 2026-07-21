@@ -1,45 +1,38 @@
-@media only screen and (max-width: 795px){
-    .cards .card__title{
-        text-align: center;
-    }
-}
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 768px){
+    // Header
     .header__title{
         font-size: 30px;
         strong{
             font-size: 45px;
         }
     }
-
     .dark-mode-btn{
         order: 0;
     }    
+
+    // Main
+    .card__title{
+        font-size: 22px;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 630px){
+    // Header
     .logo{
         font-size: 17px;
     }
-
     .nav__wrapper{
         justify-content: space-between;
     }
+
+    // Main
     .main{
         padding: 40px 0;
     }
-
     .title-1{
         font-size: 50px;
         margin-bottom: 30px;
-    }
-    
-    .title-2{
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
-
-    .card__title{
-        font-size: 22px
     }
 
     .cards{
@@ -54,7 +47,7 @@
         height: 250px;
     }
     .card__title{
-        font-size: 18px;
+        font-size: 22px;
     }
     
     // Project
@@ -71,11 +64,16 @@
         font-size: 16px;
     }
 
+    // Footer
     .footer{
         padding: 40px 0 30px;
         &__wrapper{
             row-gap: 20px;
         }
+    }
+    .title-2{
+        margin-bottom: 10px;
+        font-size: 30px;
     }
 
     .social{
@@ -87,15 +85,12 @@
 }
 
 @media only screen and (max-width: 550px){
+    // Header
     .header__title{
         font-size: 22px;
         strong{
             font-size: 32px;
         }
-    }
-   
-    .card__title{
-        font-size: 16px;
     }
 
     // Contacts
@@ -105,10 +100,10 @@
 }
 
 @media only screen and (max-width: 419px){
+    // Header
     .nav__wrapper .logo{
         font-size: 20px;
     }
-
     .header__title{
         font-size: 18px;
         strong{
@@ -116,6 +111,7 @@
         }
     }
 
+    // Main
     .card{
         width: 250px;
     }
@@ -124,7 +120,7 @@
         height: 220px;
     }
     
-
+    // Footer
     .footer__wrapper .copyright{
         font-size: 13px;
     }

@@ -1,9 +1,4 @@
-@media only screen and (max-width: 795px) {
-  .cards .card__title {
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
   .header__title {
     font-size: 30px;
   }
@@ -12,6 +7,10 @@
   }
   .dark-mode-btn {
     order: 0;
+  }
+  .card__title {
+    font-size: 22px;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 630px) {
@@ -28,13 +27,6 @@
     font-size: 50px;
     margin-bottom: 30px;
   }
-  .title-2 {
-    margin-bottom: 10px;
-    font-size: 30px;
-  }
-  .card__title {
-    font-size: 22px;
-  }
   .cards {
     flex-flow: column wrap;
     align-items: center;
@@ -47,7 +39,7 @@
     height: 250px;
   }
   .card__title {
-    font-size: 18px;
+    font-size: 22px;
   }
   .project__desc {
     font-size: 22px;
@@ -65,6 +57,10 @@
   .footer__wrapper {
     row-gap: 20px;
   }
+  .title-2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
   .social {
     -moz-column-gap: 25px;
          column-gap: 25px;
@@ -79,9 +75,6 @@
   }
   .header__title strong {
     font-size: 32px;
-  }
-  .card__title {
-    font-size: 16px;
   }
   .title-1 {
     font-size: 40px;
